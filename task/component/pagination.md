@@ -1,5 +1,5 @@
 # 分页组件
-路由 `/component/pagiation`
+路由 `/component/pagiation`  
 源码地址 `@/src/views/component/Pagiation.vue`
 
 要求:  

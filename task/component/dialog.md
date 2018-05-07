@@ -1,5 +1,5 @@
 # 表格组件
-路由 `/component/dialog`
+路由 `/component/dialog`  
 源码地址 `@/src/views/component/Dialog.vue`
 
 要求:  
