@@ -1,4 +1,4 @@
-# 表格组件
+# 信息提示
 路由 `/component/message`  
 源码地址 `@/src/views/component/message`
 对应文档 `http://element-cn.eleme.io/1.4/#/zh-CN/component/message`

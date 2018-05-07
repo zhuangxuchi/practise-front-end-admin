@@ -1,4 +1,4 @@
-# 表格组件
+# 弹框组件
 路由 `/component/dialog`  
 源码地址 `@/src/views/component/Dialog.vue`
 
