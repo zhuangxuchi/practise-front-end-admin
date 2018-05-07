@@ -8,7 +8,6 @@ Fork 本项目。完成下面的任务。
 ## 任务
 * [ ] 熟悉版本为 1.4.13 的 [Element UI](http://element-cn.eleme.io/1.4/#/zh-CN/)
   * [ ] 表格组件 [任务描述](task/component/table.md)
-    * [ ] 自定义列的显示内容。
   * [ ] 分页组件 [任务描述](task/component/pagination.md)
   * [ ] 弹出框(Dialog 对话框) [任务描述](task/component/dialog.md)
   * [ ] 信息提示 [任务描述](task/component/message.md)
@@ -19,8 +18,6 @@ Fork 本项目。完成下面的任务。
     * [ ] 日期，时间选择器。 [任务描述](task/component/date-time-picker.md)
     * [ ] 单选，多选框。 [任务描述](task/component/radio-checkbox.md)
     * [ ] 开关。 [任务描述](task/component/switch.md)
-      * [ ] 自定义开关显示文字。
-      * [ ] 自定义开关值。
     * [ ] 下拉框(Select 选择器)。 [任务描述](task/component/select.md)
       * [ ] 静态数据
       * [ ] 远程数据
@@ -29,7 +26,7 @@ Fork 本项目。完成下面的任务。
       * [ ] 单张图片上传。
       * [ ] 多张图片上传。限制最大上传图片数量。
   * [ ] 表单验证 [任务描述](task/component/form-validation.md)
-* [ ] 新建路由 
+* [ ] 新建菜单/路由。
 * [ ] 列表页
   * [ ] 获取列表数据。请求中，包含：
     * [ ] 搜索查询参数。
