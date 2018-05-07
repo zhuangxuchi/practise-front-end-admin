@@ -6,7 +6,7 @@ Fork 本项目。完成下面的任务。
 1. 运行 `npm run dev`
 
 ## 任务
-* [ ] 熟悉版本为 1.4.13 的 Element UI 组件使用
+* [ ] 熟悉版本为 1.4.13 的 [Element UI](http://element-cn.eleme.io/1.4/#/zh-CN/)
   * [ ] 表格组件 [任务描述](task/component/table.md)
     * [ ] 自定义列的显示内容。
   * [ ] 分页组件。
