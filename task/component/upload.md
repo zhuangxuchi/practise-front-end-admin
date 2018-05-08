@@ -1,6 +1,6 @@
 # 图片上传
 路由 `/component/upload`  
-源码地址 `@/src/views/component/Upload.vue`
+源码地址 `@/src/views/component/Upload.vue`  
 文档地址 `http://element-cn.eleme.io/1.4/#/zh-CN/component/upload`
 
 要求:  

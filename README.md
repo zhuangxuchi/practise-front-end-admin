@@ -21,8 +21,6 @@ Fork 本项目。完成下面的任务。
     * [ ] 下拉框(Select 选择器)。 [任务描述](task/component/select.md)
     * [ ] 级联下拉。 [任务描述](task/component/cascader.md)
     * [ ] 图片上传。 [任务描述](task/component/upload.md)
-      * [ ] 单张图片上传。
-      * [ ] 多张图片上传。限制最大上传图片数量。
   * [ ] 表单验证 [任务描述](task/component/form-validation.md)
 * [ ] 新建菜单/路由。
 * [ ] 列表页
