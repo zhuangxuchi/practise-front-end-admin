@@ -19,9 +19,7 @@ Fork 本项目。完成下面的任务。
     * [ ] 单选，多选框。 [任务描述](task/component/radio-checkbox.md)
     * [ ] 开关。 [任务描述](task/component/switch.md)
     * [ ] 下拉框(Select 选择器)。 [任务描述](task/component/select.md)
-      * [ ] 静态数据
-      * [ ] 远程数据
-    * [ ] 级联下拉。如，省，市，区的选择。 [任务描述](task/component/cascader.md)
+    * [ ] 级联下拉。 [任务描述](task/component/cascader.md)
     * [ ] 图片上传。 [任务描述](task/component/upload.md)
       * [ ] 单张图片上传。
       * [ ] 多张图片上传。限制最大上传图片数量。
