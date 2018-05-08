@@ -1,10 +1,10 @@
 export default [
 	{
-		"routePath": "/music/song/update/:id",
-		"filePath": "music/song/Update"
+		"routePath": "/music/singer/update/:id",
+		"filePath": "music/singer/Update.vue"
 	},
 	{
-		"routePath": "/music/song/list",
-		"filePath": "music/song/List.vue"
+		"routePath": "/music/singer/list",
+		"filePath": "music/singer/List.vue"
 	}
 ]

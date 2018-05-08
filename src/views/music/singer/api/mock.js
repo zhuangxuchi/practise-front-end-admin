@@ -7,15 +7,19 @@ var nextSongId = 1
 var list = [{
   id: nextSongId++ + '',
   name: '孙燕姿',
+  status: 1,
 },{
   id: nextSongId++ + '',
   name: '王菲',
+  status: 1,
 },{
   id: nextSongId++ + '',
   name: '任贤齐',
+  status: 1,
 },{
   id: nextSongId++ + '',
   name: '小刚',
+  status: 0,
 },]
 Mock.mock(new RegExp(currUrl.list), ({ url, body }) => {
   return {

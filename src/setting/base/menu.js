@@ -59,5 +59,13 @@ export default [
 			name: '表格验证',
 			path: '/component/form-validation'
 		}]
+	},{
+		id: 'page',
+		name: '页面',
+		children: [{
+			id: '',
+			name: '列表页',
+			path: '/music/singer/List'
+		}]
 	}
 ]

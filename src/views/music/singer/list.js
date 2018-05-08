@@ -1,36 +1,31 @@
-
-import listMixin from '@/mixin/list'
-import JRemoteSelect from '@/components/remote-select'
-
-var searchConditions = 
-  {
-    name: ''
-  }
-var operateConfig = {"add":{"isShow":true},"edit":{"isShow":true},"detail":{"isShow":true},"delete":{"isShow":true}}
+import JSearchCondition from '@/components/search-condition'
+import JEditItem from '@/components/edit-item'
+import JGridBox from '@/components/grid-box'
 
 export default {
-  mixins: [listMixin],
   components: {
-   'j-remote-select': JRemoteSelect,
+    'j-search-condition': JSearchCondition,
+    'j-edit-item': JEditItem,
+    'j-grid-box': JGridBox
   },
   data() {
     return {
-      KEY: null,
-      searchConditions,
-    }  
+      tableData: [],
+      addPagePath: null,//
+      pager: {
+        current: 1,
+        total: 1
+      },
+    }
   },
   methods: {
-    isShow(type) {
-      var isShow = operateConfig[type].isShow
-      if(Array.isArray(isShow)) {
-        return isShow.indexOf(this.$store.state.role) !== -1
-      } else {
-        return isShow
-      }
+    search() {
+
     },
-  
+    handleCurrentChange() {
+
+    },
   },
   mounted() {
-    this.key = 'singer'
   }
 }
