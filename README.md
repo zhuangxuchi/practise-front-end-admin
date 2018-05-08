@@ -22,7 +22,7 @@ Fork 本项目。完成下面的任务。
     * [ ] 级联下拉。 [任务描述](task/component/cascader.md)
     * [ ] 图片上传。 [任务描述](task/component/upload.md)
   * [ ] 表单验证 [任务描述](task/component/form-validation.md)
-* [ ] 新建菜单/路由。
+* [ ] 新建路由和菜单 [任务描述](task/page/add-menu-router.md)
 * [ ] 列表页
   * [ ] 获取列表数据。请求中，包含：
     * [ ] 搜索查询参数。
