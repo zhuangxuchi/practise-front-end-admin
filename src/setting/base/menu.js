@@ -65,7 +65,7 @@ export default [
 		children: [{
 			id: '',
 			name: '列表页',
-			path: '/music/singer/List'
+			path: '/music/singer/list'
 		}]
 	}
 ]
