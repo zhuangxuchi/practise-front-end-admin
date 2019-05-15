@@ -10,7 +10,7 @@ Fork 本项目。完成下面的任务。
   * [X] 表格组件 [任务描述](task/component/table.md)
   * [X] 分页组件 [任务描述](task/component/pagination.md)
   * [X] 弹出框(Dialog 对话框) [任务描述](task/component/dialog.md)
-  * [ ] 信息提示 [任务描述](task/component/message.md)
+  * [X] 信息提示 [任务描述](task/component/message.md)
   * [ ] MessageBox 弹框 [任务描述](task/component/message-box.md)
   * [ ] 按钮 [任务描述](task/component/button.md)
   * [ ] 表单类组件
