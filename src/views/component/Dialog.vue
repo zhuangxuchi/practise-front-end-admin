@@ -1,7 +1,13 @@
 <template>
   <div class="main">
-    <el-button type="primary">显示弹框</el-button>
-    <el-form ref="form" :model="form" label-width="80px">
+    <el-button type="primary" @click="dialogVisible = true">显示弹框</el-button>
+    <el-dialog
+      title="提示"
+      :visible.sync="dialogVisible"
+      width="30%"
+      :before-close="handleClose">
+      <span>
+        <el-form ref="form" :model="form" label-width="80px">
       <el-form-item label="活动名称">
         <el-input v-model="form.name"></el-input>
       </el-form-item>
@@ -32,11 +38,13 @@
       <el-form-item label="活动形式">
         <el-input type="textarea" v-model="form.desc"></el-input>
       </el-form-item>
-      <el-form-item>
-        <el-button type="primary">立即创建</el-button>
-        <el-button>取消</el-button>
-      </el-form-item>
     </el-form>
+      </span>
+      <span slot="footer" class="dialog-footer">
+        <el-button @click="dialogVisible = false">取 消</el-button>
+        <el-button type="primary" @click="dialogVisible = false">立即创建</el-button>
+      </span>
+    </el-dialog>
   </div>
 </template>
 
@@ -44,13 +52,20 @@
 export default {
   data() {
     return {
+      dialogVisible: false,
       form: {}
     }  
   },
   methods: {
-    
-  }
-}
+      handleClose(done) {
+        this.$confirm('确认关闭？')
+          .then(_ => {
+            done();
+          })
+          .catch(_ => {});
+      }
+    }
+} 
 </script>
 
 <style scoped></style>
